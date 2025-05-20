@@ -1,3 +1,3 @@
-module github/com/scalable-order-management-service/stock
+module oms.com/stock
 
 go 1.24.3

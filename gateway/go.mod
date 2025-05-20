@@ -1,3 +1,3 @@
-module github.com/scalable-order-management-service/gateway
+module oms.com/gateway
 
 go 1.24.3

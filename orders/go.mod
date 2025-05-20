@@ -1,3 +1,3 @@
-module github.com/pnaskardev/scalabale-order-management-system/orders
+module oms.com/orders
 
 go 1.24.3

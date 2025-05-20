@@ -1,3 +1,3 @@
-module github/com/scalable-order-management-service/payements
+module oms.com/payments
 
 go 1.24.3
