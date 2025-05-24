@@ -1,12 +1,13 @@
 {
-  "name": "@scope/gateway",
-  "version": "0.1.0",
-  "exports": "./main.ts",
-
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch --allow-all main.ts"
   },
   "imports": {
-    "@std/assert": "jsr:@std/assert@1"
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/node": "npm:@types/node@^22.15.21",
+    "cors": "npm:cors@^2.8.5",
+    "deno": "npm:deno@^2.3.3",
+    "express": "npm:express@^5.1.0",
+    "winston": "npm:winston@^3.17.0"
   }
 }
